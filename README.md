@@ -3,8 +3,8 @@ Joint Power Control and LSFD for Wireless-Powered Cell-Free Massive MIMO
 
 This is a code package is related to the following scientific article:
 
-Özlem Tuğfe Demir and Emil Björnson, “[Joint Power Control and LSFD for Wireless-Powered Cell-Free Massive MIMO](http://arxiv.org/pdf/2002.09270
-),” IEEE Transactions on Wireless Communications, to appear.
+Özlem Tuğfe Demir and Emil Björnson, “[Joint Power Control and LSFD for Wireless-Powered Cell-Free Massive MIMO](https://ieeexplore.ieee.org/document/9258425
+),” IEEE Transactions on Wireless Communications, vol. 20, no. 3, pp. 1756-1769, March 2021, doi: 10.1109/TWC.2020.3036281.
 
 The package contains a simulation environment, based on Matlab, that reproduces some of the numerical results and figures in the article. We encourage you to also perform reproducible research!
 
