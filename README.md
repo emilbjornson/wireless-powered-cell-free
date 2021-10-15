@@ -11,25 +11,26 @@ The package contains a simulation environment, based on Matlab, that reproduces 
 
 ## Abstract of Article
 
-This paper considers wireless uplink information
-and downlink power transfer in cell-free massive multiple-input
-multiple-output systems. The single-antenna user equipments
-(UEs) utilize the energy harvested in the downlink to transmit
-uplink pilot and information signals to the multiple-antenna
-access points (APs). We consider Rician fading and maximum
-ratio processing based on either linear minimum mean-squared
-error (LMMSE) or least-squares (LS) channel estimation. We
-derive the average harvested energy by using a practical nonlinear
-energy harvesting circuit model for both coherent and noncoherent
-transmission schemes. Furthermore, the uplink spectral
-efficiency (SE) is derived for all the considered methods and
-the max-min fairness problem is cast where the optimization
-variables are the AP and UE power control coefficients together
-with the large-scale fading decoding vectors. The objective is to
-maximize the minimum SE of the UEs’ under APs’ and UEs’
-transmission power constraints. A novel alternating optimization
-algorithm with guaranteed convergence and improvement at each
-step is proposed to solve the highly-coupled non-convex problem.
+Wireless communication systems have almost exclusively operated in the far-field of antennas and antenna arrays,
+which is conventionally characterized by having propagation
+distances beyond the Fraunhofer distance. This is natural since
+the Fraunhofer distance is normally only a few wavelengths.
+With the advent of active arrays and passive reconfigurable
+intelligent surfaces (RIS) that are physically large, it is plausible
+that the transmitter or receiver is located in between the
+Fraunhofer distance of the individual array/surface elements and
+the Fraunhofer distance of the entire array. An RIS then can be
+configured to reflect the incident waveform towards a point in
+the radiative near-field of the surface, resulting in a beam with
+finite depth, or as a conventional angular beam with infinity
+focus, which only results in amplification in the far-field. To
+understand when these different options are viable, an accurate
+characterization of the near-field behaviors is necessary. In this
+paper, we revisit the motivation and approximations behind the
+Fraunhofer distance and show that it is not the right metric for
+determining when near-field focusing is possible. We obtain the
+distance range where finite-depth beamforming is possible and
+the distance where the beamforming gain tapers off
 
 ## Content of Code Package
 
